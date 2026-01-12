@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo h1{
+    font-size: 45px;
+
+}
+.color-orange{
+    color:orange;
+    font-weight: 900;
+}
+.open-font-sance {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color:rgba(255, 248, 243, 1);;
+    padding-top:50px ;
+   
+}
+nav{
+    width:71%;
+    max-width: 1140px;
+    border: 2px ;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav .menu{
+    display: flex;
+    gap: 51px;
+    list-style: none;
+    align-items: center;
+}
+nav .menu a{
+    align-items: center;
+    color: #474747;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn{
+    background-color:#FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight:bold;
+    color:white; 
+    border-radius: 5px;
+   
+}
