@@ -1,3 +1,6 @@
+body{
+    background: rgba(255, 248, 243, 1);
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +20,19 @@
   
 }
 header{
-    background-color:rgba(255, 248, 243, 1);;
-    padding-top:50px ;
-   
+     background-color:rgba(255, 248, 243, 1);
+    background: url("../images/developer.png"),url("../images/header_bg.png"),
+    rgba(255, 248, 243, 1);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+ 
+    padding-top:50px ; 
+    
+  
 }
+
+   
+
 nav{
     width:71%;
     max-width: 1140px;
@@ -50,5 +62,42 @@ nav .menu a{
     font-weight:bold;
     color:white; 
     border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#banner{
+    border: 1px ;
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+     /* background-color:rgba(255, 248, 243, 1); */
+}
+#banner .banner-contant{
+     max-width: 600px; 
+    }
+#banner .banner-contant h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-contant h1{
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818; 
+    margin: 20px;
+   
+}
+#banner .banner-contant p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner.banner-images{
+    max-width: 585px;
+vertical-align: middle;
    
 }
