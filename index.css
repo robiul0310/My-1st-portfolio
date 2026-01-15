@@ -68,6 +68,7 @@ nav .menu a{
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h4{
     font-size: 35px;
@@ -132,4 +133,60 @@ vertical-align: middle;
 #about .about-container .about-info{
     display: flex;
     justify-content: space-around;
+}
+.about-info .card-info p{
+     font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about-info .card-info h4{
+    font-size: 20px;
+}
+
+#skill{
+    padding-top: 130px;
+}
+#skill .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;       /* কন্টেইনারটিকে স্ক্রিনের মাঝখানে রাখার জন্য */
+    text-align: center;
+}
+.skill-container .heading-section{
+    padding-right:172px ;
+    padding-left: 142px;
+}
+.skill-container .heading-section h2{
+     font-size: 35px; 
+}
+.skill-container .heading-section p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+#skill .skill-container .skill-boxs{
+    display: flex;
+    gap: 24px;
+   
+}
+.skill-boxs .skill-card{
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000020 ;
+    max-width: 267px;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-card p{
+   font-size: 16px;
+   color: #757575;
+   margin-bottom: 30px;
+   
+  
 }
