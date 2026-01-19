@@ -24,7 +24,7 @@ header{
     background: url("../images/developer.png"),url("../images/header_bg.png"),
     rgba(255, 248, 243, 1);
     background-repeat: no-repeat;
-    background-position: 23px 38px, bottom right;
+    background-position: bottom right;
  
     padding-top:50px ; 
     
@@ -130,6 +130,13 @@ vertical-align: middle;
     text-align: center;
     background-color:#FFF8F3;
     padding: 131px 156px;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
 }
 #about .about-container .about-info{
     display: flex;
@@ -272,5 +279,86 @@ footer .footer-container{
     border: none;
     border-radius: 5px;
 }
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    #skill .skill-container ,nav {
+    width: 95%;
+    
+}
+h2 {
+    font-size: 30px;
+}
+  #about, #skill, #resume{
+    padding-top: 60px;
+} 
+#about .about-container ,
+.skill-container .heading-section{
+    padding: 20px;
+}
+ #skill {
+    padding-top: 50px;
+} 
+#about .about-container .about-info{
+    gap: 40px;
+}
+
+#resume .resume-container{
+    margin-top: 60px;
+}
+.resume-card{
+    margin-right: 10px;
+}
+
+nav .menu{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#banner{
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+}
+#banner .banner-contant h1{
+    font-size: 44px;
+}
+#banner .banner-contant h2{
+    font-size: 29px;
+}
+.btn-group{
+    justify-content: center;
+}
+.btn{
+    font-size: 18px;
+}
+#banner .banner-images img{
+    width: 100%;
+
+}
 
 
+#skill .skill-container .skill-boxs ,
+#about .about-container .about-info ,
+#resume .resume-container ,
+#banner{
+    flex-direction: column;
+}
+.skill-boxs .skill-card{
+    max-width: 100%;
+}
+    
+}
+@media screen and (max-width:576px) {
+    footer .footer-container{
+        width: 95%;
+    }
+    footer .footer-container{
+        flex-direction: column;
+    }
+    .footer-container form input[ type="text"], .footer-container form textarea{
+        width: 100%;
+    }
+    
+}
